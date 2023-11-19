@@ -24,7 +24,7 @@ Long articles and research papers contain a wealth of information, posing a chal
 - **BART:** Leveraged a pre-trained Bidirectional and Auto-Regressive Transformers for text generation.
 - **LSTM:** Created a Long Short-Term Memory networks for sequence-to-sequence learning
 
-### 3. Dive into the Data
+### 3. Datasets
 
 Scientific papers datasets from ArXiv and PubMed OpenAccess repositories. The datasets include:
 
@@ -43,5 +43,14 @@ Scientific papers datasets from ArXiv and PubMed OpenAccess repositories. The da
 5. **Listen:** Transform your document into an auditory experience with text-to-speech.
 
 ## Important components in Action
+1. **Keyword Generation** - 
+This Python code defines a function for keyword extraction using the KeyBERT library. It initializes a KeyBERT model based on BERT embeddings, extracts keywords and their scores from the input text, and then filters out similar keywords to ensure diversity. The function returns a list of filtered keywords along with their scores. The similarity between keywords is determined using cosine similarity, and only keywords with a similarity score below a threshold (0.8) are considered unique.
 
+2. **Translation** - 
+This Python script utilizes the Hugging Face Transformers library to perform language translation. It defines a function called translate that takes a source text, target language, and maximum length as input parameters. The function uses a pre-trained sequence-to-sequence model ('facebook/nllb-200-distilled-600M') for translation. It leverages the Hugging Face pipeline class to create a translation pipeline, and then translates the source text to the specified target language. The script also defines a dictionary language that maps human-readable language names to their respective language codes used by the translation model.
+
+4. **Text-to-Speech** - The "text_to_speech" function utilizes the gTTS library to convert the provided 'text' into speech, specifying the language through 'lang_key'. The synthesized speech is then saved as 'saved_audio.wav'.
+   
+6. **Fine-Tuned Model** - This model leveraged LoRA and PEFT in creating long text summaries. Starting with gathering components such as a base model (facebook/bart-large-cnn) and our dataset, it introduced LoRA configuration for fine-tuning. The  process involved loading the base model, wrapping it with LoRA, tokenizing the text, training the PEFT model with new dataset, and finally, generating a summary using the configured LoRA-PEFT model with adjustable parameters like max_length and num_beams.
+7. **Accuracy** - Used ROUGE score to evaluate our fine-tuned model.
 
