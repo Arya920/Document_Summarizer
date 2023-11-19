@@ -43,6 +43,9 @@ Scientific papers datasets from ArXiv and PubMed OpenAccess repositories. The da
 4. **Discover:** Automatically generated keywords provide extra insights.
 5. **Listen:** Transform your document into an auditory experience with text-to-speech.
 
+
+![flowchart](https://github.com/Arya920/Document_Summarizer/assets/57805586/c932268c-1851-45ed-84d9-314383d3b0f8)
+
 ## Important components in Action
 1. **Keyword Generation** - 
 This Python code defines a function for keyword extraction using the KeyBERT library. It initializes a KeyBERT model based on BERT embeddings, extracts keywords and their scores from the input text, and then filters out similar keywords to ensure diversity. The function returns a list of filtered keywords along with their scores. The similarity between keywords is determined using cosine similarity, and only keywords with a similarity score below a threshold (0.8) are considered unique.
