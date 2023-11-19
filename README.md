@@ -3,7 +3,7 @@
 ![fronfend](ss2.png)
 Unlock the power of Natural Language Processing (NLP) with our Automatic Document Summarization Model (ADSM), designed to effortlessly distill the essence of lengthy articles and research papers. Tired of drowning in information overload? Let our ADSM be your guide, providing crisp and coherent summaries, saving you valuable time and effort.
 
-## Problem Statemet
+## Problem Statement
 
 Long articles and research papers contain a wealth of information, posing a challenge for readers to efficiently grasp essential details. The objective is to develop an Automatic Document Summarization Model (ADSM) using NLP techniques. This model will employ advanced methods to generate succinct and meaningful summaries of lengthy textual documents.
 
