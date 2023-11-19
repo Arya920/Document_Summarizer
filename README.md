@@ -53,4 +53,6 @@ This Python script utilizes the Hugging Face Transformers library to perform lan
    
 6. **Fine-Tuned Model** - This model leveraged LoRA and PEFT in creating long text summaries. Starting with gathering components such as a base model (facebook/bart-large-cnn) and our dataset, it introduced LoRA configuration for fine-tuning. The  process involved loading the base model, wrapping it with LoRA, tokenizing the text, training the PEFT model with new dataset, and finally, generating a summary using the configured LoRA-PEFT model with adjustable parameters like max_length and num_beams.
 7. **Accuracy** - Used ROUGE score to evaluate our fine-tuned model.
+   
+**NOTE: We achieved higher accuracy score of 0.31 as compared to that of other pretrained models i.e., (0.28). Which is 10.71% better than the pre-trained models**
 
