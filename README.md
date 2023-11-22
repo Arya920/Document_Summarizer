@@ -23,7 +23,6 @@ Long articles and research papers contain a wealth of information, posing a chal
 - **Fine-tuned BART:** Created a fine-tuned BART model (uploaded to HuggingFace). [link to our model](https://huggingface.co/datasets/scientific_papers?row=0)
 - **Pegasus:** Used a powerful pre-trained model for abstractive summarization.
 - **BART:** Leveraged a pre-trained Bidirectional and Auto-Regressive Transformers for text generation.
-- **LSTM:** Created a Long Short-Term Memory networks for sequence-to-sequence learning
 
 ### 3. Datasets
 
