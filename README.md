@@ -58,4 +58,5 @@ This Python script utilizes the Hugging Face Transformers library to perform lan
 7. **Accuracy** - Used ROUGE score to evaluate our fine-tuned model.
    
 **NOTE: We achieved higher accuracy score of 0.31 as compared to that of other pretrained models i.e., (0.28). Which is 10.71% better than the pre-trained models**
+so our model is best
 
